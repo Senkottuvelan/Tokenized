@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 function FirstUserState() {
     const supabaseUrl = 'https://vdwqdynfeifvlczhjfqz.supabase.co'
-    const supabaseKey = process.env.SUPABASE_KEY
+    const supabaseKey = process.env.REACT_APP_SUPABASE_KEY
     const supabase = createClient(supabaseUrl, supabaseKey)
 
 
